@@ -11,6 +11,6 @@ sudo apt install pip3
 sudo pip3 install flask
 pip3 install -r requirements.txt
 sudo apt update
-# uncomment line #15 if using this sh file for S3
+# uncomment line #15 if using this sh file for S3 or SNS
 #sudo pip3 install boto3
 #ls
