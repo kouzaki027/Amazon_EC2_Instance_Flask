@@ -1,11 +1,6 @@
 #1/bin/bash
 echo "starting script"
 
-#echo "Enter directory name"
-#read newdir
-#`mkdir $newdir`
-#mkdir COS1
-#cd COS1
 apt list --upgradable
 sudo apt update
 sudo apt-get update
