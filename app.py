@@ -12,8 +12,8 @@ def hello():
 def ReturnJSON():
     if(request.method == 'GET'):
         data = {
-            "Modules" : 15,
-            "Subject" : "Data Structures and Algorithms",
+            "Class" : 298,
+            "Subject" : "Introduction to Cloud Computing",
         }
   
         return jsonify(data)
